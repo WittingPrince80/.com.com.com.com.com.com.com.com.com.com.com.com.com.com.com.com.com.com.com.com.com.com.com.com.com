@@ -1,0 +1,42 @@
+body
+{
+ background-color: limegreen;
+}
+
+h1
+{
+  color:rgb(16, 84, 187);
+    background-color: purple;
+    border-radius: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+p
+{
+  padding-top:10px;
+  font-size:25px;
+}
+
+canvas
+{
+   border:5px solid white ;
+   border-radius: 20px;
+   animation-name: example ;
+   animation-duration: 4s;
+   margin-top:50px;
+   animation-iteration-count:infinite;
+}
+
+@keyframes example
+{
+  from {box-shadow: 1px 1px 30px rgb(0, 128, 128);}
+  to {box-shadow: 1px 1px 30px whitesmoke;}
+
+}
+
